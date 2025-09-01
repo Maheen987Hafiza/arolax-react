@@ -30,7 +30,7 @@ const WebHeader = () => {
             "flex h-[100px] items-center gap-[20px] relative justify-between"
           }
         >
-          <Logo light={isLight} />
+          {/* <Logo light={isLight} /> */}
           <div className="pos-center hidden xl:block">
             <Menu className="text-[22px] [&_button]:text-[22px] [&_a]:text-[22px] [&_svg]:w-4 [&_svg]:h-4 uppercase font-teko" />
           </div>
